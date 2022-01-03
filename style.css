@@ -1,0 +1,29 @@
+h3{
+    font-size: 50px !important;
+    font-family: 'Yuji Hentaigana Akari', cursive;
+    color: white;
+}
+h4{
+    font-family: 'Yuji Hentaigana Akari', cursive;
+    color: whitesmoke;
+}
+.btn-success:hover{
+    background-color: darkgreen;
+}
+canvas{
+    animation-name: dunno;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+}
+@keyframes dunno {
+    0%   {box-shadow: 2px 2px 38px yellow;}
+    25%  {box-shadow: 2px 2px 38px orange;}
+    50%  {box-shadow: 2px 2px 38px red;}
+    75%  {box-shadow: 2px 2px 38px green;}
+    95% {box-shadow: 2px 2px 38px blue;}
+    100% {box-shadow: 2px 2px 38px yellow;}
+  }
+body{
+    background: url("background.jpg");
+    background-size:cover;
+}
